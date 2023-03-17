@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: darkgray;
+      }
+      .wrapper{
+        position:absolute;
+        top: 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100px;
+        background: transparent;
+        background-color: black;
+        border: 4px solid skyblue;
+        border-radius: 15px;
+        transition: 0.5s;
+      }
+      #img1{
+        position: absolute;
+        height: 180px;
+        left: 0px;
+      }
+      .bt1{
+        height: 50px;
+        width: 120px;
+        left: 20px;
+        margin-left: 100px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 900;
+        background-color:darkgray;
+        color: white;
+      }
+      .bt1:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+      }
+      .wrapper1{
+        position: absolute;
+        top: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 350px;
+        background: transparent;
+        background-color: black;
+        border: 4px solid skyblue;
+        border-radius: 15px;
+        transition: 0.5s;
+      }
+      #bt1{
+        position: absolute;
+        top: 40px;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color: rgb(103, 103, 237);
+        color: white;
+      }
+      #bt2{
+        position: absolute;
+        top: 110px;
+        left: 50px;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color:  rgb(103, 103, 237);
+        color: white;
+      }
+      #bt3{
+        position: absolute;
+        top: 180px;
+        left: 50px;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: rgb(103, 103, 237);
+        color: white;
+      }
+      #bt4{
+        position: absolute;
+        top: 250px;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color:  rgb(103, 103, 237);
+        color: white;
+      }
+      #icon1{
+        position: absolute;
+        top: 45px;
+        left: 60px;
+        font-size: 25px;
+        color: deeppink;
+      }
+      #icon2{
+        position: absolute;
+        top: 115px;
+        left: 60px;
+        font-size: 25px;
+        color: deeppink;
+      }
+      #icon3{
+        position: absolute;
+        top: 185px;
+        left: 60px;
+        font-size: 25px;
+        color: deeppink;
+      }
+      #icon4{
+        position: absolute;
+        top: 255px;
+        left: 60px;
+        font-size: 25px;
+        color: deeppink;
+      }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <a href="./home.html"><input type="button" class="bt1" value="HOME"></a>
+        <a href="./about.html"><input type="button" class="bt1" value="ABOUT"></a>
+        <a href="./service.html"><input type="button" class="bt1" value="SERVICES"></a>
+        <a href="./blog.html"><input type="button" class="bt1" value="BLOG"></a>
+        <a href="./contact.html"><input type="button" class="bt1" value="CONTACT"></a>
+        <img src="./Photo_1608910360285.png" id="img1" alt="">
+    </div>
+    <div class="wrapper1">
+        <input type="button" id="bt1" value="K.LOKESH KUMAR">
+        <a href=""><input type="button" id="bt2" value="lokesh1733@gmail.com"></a>
+        <a href=""><input type="button" id="bt3" value="8248078950"></a>
+        <input type="button" id="bt4" value="Time 10 A.M to 6 P.M">
+        <i class="fa-solid fa-user" id="icon1"></i>
+        <i class="fa-solid fa-envelope" id="icon2"></i>
+        <i class="fa-solid fa-phone" id="icon3"></i>
+        <i class="fa-solid fa-business-time" id="icon4"></i>
+    </div>
+</body>
+</html>
